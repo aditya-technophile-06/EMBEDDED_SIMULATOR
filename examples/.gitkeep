@@ -1,0 +1,6 @@
+# This file keeps the examples directory in git
+# Future example applications will go here:
+# - LED control examples
+# - Sensor reading examples
+# - UART communication examples
+# - Complete system demos

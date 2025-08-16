@@ -1,0 +1,133 @@
+# Embedded Systems Simulator - Git Ignore File
+
+# Build artifacts
+build/
+*.o
+*.d
+*.so
+*.a
+*.dylib
+*.dll
+*.exe
+
+# Compiled executables
+embedded_simulator
+test_runner
+test_*
+
+# Generated device files (runtime generated)
+device_files/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.*.tmp
+
+# macOS specific files
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Linux specific files
+*.pid
+*.log
+
+# Build system generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile.bak
+
+# Debugging and profiling
+gmon.out
+*.gcda
+*.gcno
+*.gcov
+callgrind.out.*
+cachegrind.out.*
+massif.out.*
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# Documentation build outputs (keep source, ignore generated)
+docs/html/
+docs/latex/
+docs/man/
+*.pdf
+
+# Test outputs
+test_results/
+coverage/
+
+# Package files
+*.tar.gz
+*.zip
+*.deb
+*.rpm
+
+# Virtual environments and dependencies
+venv/
+env/
+.env
+
+# Logs and runtime files
+*.log
+*.pid
+core.*
+
+# Editor backup files
+*~
+*.orig
+*.rej
+
+# Valgrind outputs
+valgrind-*.xml
+
+# Clang static analyzer outputs
+scan-build-*/
+
+# Performance profiling outputs
+perf.data*
+profile.txt
+
+# Doxygen outputs (if configured)
+doxygen_warnings.txt
+
+# Keep these directories but ignore their contents if empty
+!docs/.gitkeep
+!examples/.gitkeep
+!tests/.gitkeep
+
+# Node modules (if any web interface is added later)
+node_modules/
+
+# Python cache (if any Python scripts are added)
+__pycache__/
+*.pyc
+*.pyo
+
+# Rust target directory (if any Rust code is added)
+target/
+
+# Go build artifacts (if any Go code is added)
+*.exe
+*.exe~
+*.test
+*.out
+
+# Java class files (if any Java code is added)
+*.class
+*.jar
+*.war
+
+# Keep README files in empty directories
+!README.md
+!**/README.md
