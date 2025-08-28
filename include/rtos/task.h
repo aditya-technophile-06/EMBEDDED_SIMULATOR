@@ -6,6 +6,7 @@
 #include <chrono>
 #include <atomic>
 #include <memory>
+#include <mutex>
 
 /**
  * @brief RTOS Task Class

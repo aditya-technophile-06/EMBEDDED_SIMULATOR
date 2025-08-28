@@ -3,6 +3,7 @@
 #include <fstream>
 #include <sys/stat.h>
 #include <errno.h>
+#include <cstring>
 
 Peripheral::Peripheral(const std::string& name) 
     : device_name(name), initialized(false) {
